@@ -15,7 +15,7 @@ const LogInSchema=new mongoose.Schema({
     },
     password:{
         type:String,
-        requried:true
+        requried:false
 
     }
 })
