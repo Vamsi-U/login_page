@@ -11,15 +11,15 @@ mongoose.connect("mongodb://localhost:27017/LoginSignUpTutorial")
 const LogInSchema=new mongoose.Schema({
     name:{
         type:String,
-        requried:true
+        required:true
     },
     password:{
         type:String,
-        requried:true
+        required:true
 
     }
 })
 
-const collection=new mongoose.model("Collection",LogInSchema)
+const collection=new mongoose.model("Collection1",LogInSchema)
 
 module.exports=collection
